@@ -1,0 +1,16 @@
+{
+    "name": "AWS_RDS_Snapshots_Public_Prohibited",
+    "description": "It is recommended that Amazon Relational Database Service (Amazon RDS) snapshots are not public.",
+    "impact": "medium",
+    "actions": [
+    ],
+    "resource_details": {
+      "resource_type_key": "resourceType",
+      "resource_name_key": "resourceName",
+      "config_rule" : "ConfigRuleName"
+    },
+    "action_details": {
+    },
+    "service_resource_reference": {
+    }
+  }

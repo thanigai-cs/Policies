@@ -1,0 +1,16 @@
+{
+    "name": "AWS_GUARDDUTY_Enabled_Centralized",
+    "description": "It is recommended to have Amazon GuardDuty enabled in your AWS account and region. ",
+    "impact": "medium",
+    "actions": [
+    ],
+    "resource_details": {
+      "resource_type_key": "resourceType",
+      "resource_name_key": "resourceName",
+      "config_rule" : "ConfigRuleName"
+    },
+    "action_details": {
+    },
+    "service_resource_reference": {
+    }
+  }

@@ -1,0 +1,16 @@
+{
+    "name": "AWS_S3_Bucket_Public_Read_Prohibited",
+    "description": ""It is recommended to configure the Block Public Access settings",
+    "impact": "medium",
+    "actions": [
+    ],
+    "resource_details": {
+      "resource_type_key": "resourceType",
+      "resource_name_key": "resourceName",
+      "config_rule" : "ConfigRuleName"
+    },
+    "action_details": {
+    },
+    "service_resource_reference": {
+    }
+  }

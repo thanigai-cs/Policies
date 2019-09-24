@@ -1,0 +1,16 @@
+{
+    "name": "AWS_ELB_Logging_Enabled",
+    "description": "It is recommended to have the Application Load Balancers and the Classic Load Balancers have logging enabled. ",
+    "impact": "medium",
+    "actions": [
+    ],
+    "resource_details": {
+      "resource_type_key": "resourceType",
+      "resource_name_key": "resourceName",
+      "config_rule" : "ConfigRuleName"
+    },
+    "action_details": {
+    },
+    "service_resource_reference": {
+    }
+  }

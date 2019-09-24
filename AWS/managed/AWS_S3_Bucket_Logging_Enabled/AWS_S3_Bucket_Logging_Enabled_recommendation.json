@@ -1,0 +1,16 @@
+{
+    "name": "AWS_S3_Bucket_Logging_Enabled",
+    "description": "It is recommended to have the logging enabled for S3 buckets.",
+    "impact": "medium",
+    "actions": [
+    ],
+    "resource_details": {
+      "resource_type_key": "resourceType",
+      "resource_name_key": "resourceName",
+      "config_rule" : "ConfigRuleName"
+    },
+    "action_details": {
+    },
+    "service_resource_reference": {
+    }
+  }

@@ -1,0 +1,16 @@
+{
+    "name": "AWS_RDS_Storage_Encrypted",
+    "description": "It is recommended to have storage encryption enabled for your RDS DB instances.",
+    "impact": "medium",
+    "actions": [
+    ],
+    "resource_details": {
+      "resource_type_key": "resourceType",
+      "resource_name_key": "resourceName",
+      "config_rule" : "ConfigRuleName"
+    },
+    "action_details": {
+    },
+    "service_resource_reference": {
+    }
+  }
