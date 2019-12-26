@@ -1,3 +1,1 @@
 *.json linguist-language=JSON
-*.md linguist-detectable=false
-*.json linguist-detectable=false
