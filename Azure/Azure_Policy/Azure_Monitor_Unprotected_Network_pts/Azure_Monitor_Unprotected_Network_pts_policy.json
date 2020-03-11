@@ -1,0 +1,36 @@
+{
+  "parameters": {
+    "effect": {
+      "type": "string",
+      "allowedValues": [
+        "AuditIfNotExists",
+        "Disabled"
+      ]
+    }
+  },
+  "policyRule": {
+    "if": {
+      "field": "type",
+      "in": [
+        "Microsoft.Network/publicIPAddresses",
+        "Microsoft.ClassicCompute/domainNames"
+      ]
+    },
+    "then": {
+      "effect": "[parameters('effect')]",
+      "details": {
+        "type": "Microsoft.Security/complianceResults",
+        "name": "unprotectedNetworkEndpoint",
+        "existenceCondition": {
+          "field": "Microsoft.Security/complianceResults/resourceStatus",
+          "in": [
+            "Monitored",
+            "NotApplicable",
+            "OffByPolicy",
+            "Healthy"
+          ]
+        }
+      }
+    }
+  }
+}

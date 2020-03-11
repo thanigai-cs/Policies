@@ -1,0 +1,27 @@
+{
+  "policyRule": {
+    "if": {
+      "field": "type",
+      "in": [
+        "Microsoft.Compute/virtualMachines",
+        "Microsoft.ClassicCompute/virtualMachines"
+      ]
+    },
+    "then": {
+      "effect": "AuditIfNotExists",
+      "details": {
+        "type": "Microsoft.Security/complianceResults",
+        "name": "endpointProtection",
+        "existenceCondition": {
+          "field": "Microsoft.Security/complianceResults/resourceStatus",
+          "in": [
+            "Monitored",
+            "NotApplicable",
+            "OffByPolicy",
+            "Healthy"
+          ]
+        }
+      }
+    }
+  }
+}

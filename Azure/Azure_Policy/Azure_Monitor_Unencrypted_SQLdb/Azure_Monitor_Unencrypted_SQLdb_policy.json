@@ -1,0 +1,26 @@
+{
+  "policyRule": {
+    "if": {
+      "field": "type",
+      "in": [
+        "Microsoft.SQL/servers/databases"
+      ]
+    },
+    "then": {
+      "effect": "AuditIfNotExists",
+      "details": {
+        "type": "Microsoft.Security/complianceResults",
+        "name": "encryption",
+        "existenceCondition": {
+          "field": "Microsoft.Security/complianceResults/resourceStatus",
+          "in": [
+            "Monitored",
+            "NotApplicable",
+            "OffByPolicy",
+            "Healthy"
+          ]
+        }
+      }
+    }
+  }
+}

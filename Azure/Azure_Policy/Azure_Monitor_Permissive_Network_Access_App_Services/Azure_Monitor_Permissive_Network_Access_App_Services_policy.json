@@ -1,0 +1,25 @@
+{
+  "policyRule": {
+    "if": {
+      "field": "type",
+      "equals": "Microsoft.Web/sites"
+    },
+    "then": {
+      "effect": "AuditIfNotExists",
+      "details": {
+        "type": "Microsoft.Security/complianceResults",
+        "name": "restrictAccessToAppServices",
+        "existenceCondition": {
+          "field": "Microsoft.Security/complianceResults/resourceStatus",
+          "in": [
+            "Monitored",
+            "NotApplicable",
+            "OffByPolicy",
+            "Healthy"
+          ]
+        }
+      }
+    }
+  }
+}
+
