@@ -1,0 +1,29 @@
+{
+  "name": "OpenStack_SecurityGroup_Any_Port_Violation",
+  "display_name": "OpenStack SecurityGroup Any Port Violation",
+  "description": "Policy to check for any port(s) opened with CIDR block 0.0.0.0/0 in an OpenStack account.\nUse case(s): \nCan be used to identify SSH/RDP/DB port if open to public",
+  "category": "service",
+  "status": "active",
+  "content": "os(SG_id, name, SG_rule_id, direction, port_range_min, port_range_max, remote_ip_prefix) :- neutronv2:security_groups(id=SG_id, name=name), neutronv2:security_group_rules(security_group_id=SG_id, id=SG_rule_id, port_range_min=port_range_min, port_range_max=port_range_max, direction=direction, remote_ip_prefix=remote_ip_prefix), equal('0.0.0.0/0', remote_ip_prefix);",
+  "parameters": {},
+  "classification": "Security",
+  "sub_classification": "Network",
+  "resource_type": [ "Security_Groups" ],
+  "severity": "high",
+  "type": [
+    "Cloud"
+  ],
+  "services": [
+    "Openstack"
+  ],
+  "scope": "global",
+  "metadata": {
+  },
+  "resources": [],
+  "is_temp": false,
+  "is_system_policy": false,
+  "uri": "policy/congress/global/openstack/compliance/security_group/hdxix",
+  "recommendations": [
+    "OpenStack_Fix_Violated_SecurityGroup_Rules"
+  ]
+}
