@@ -5,13 +5,13 @@ EC2_MANAGEDINSTANCE_PATCH_COMPLIANCE_STATUS_CHECK
 
 ### Prerequisites
 
-AWS account with required access
+AWS account with config recorder enabled
 
 ## Deployment
 
 Import these policies in AWS Config or click below to deploy to the corestack product 
 
-[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://qa.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_EC2_Patch_Compliance_Status_Check&engine_type=aws_config&services=AWS&severity=high&classification=Cost&sub_classification=Utilization&url=https://github.com/corestacklabs/Policies.git&policypath=AWS/managed/AWS_EC2_Patch_Compliance_Status_Check&recommendation_name=recommendation#/tenant)
+[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://devserver.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_EC2_Patch_Compliance_Status_Check&engine_type=aws_config&services=AWS&severity=high&classification=Cost&sub_classification=Utilization&url=https://github.com/corestacklabs/Policies.git&policypath=AWS/managed/AWS_EC2_Patch_Compliance_Status_Check&recommendation_name=recommendation#/tenant)
 
 ## Contributing
 
