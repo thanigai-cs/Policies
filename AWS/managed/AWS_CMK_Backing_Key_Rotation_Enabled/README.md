@@ -11,7 +11,7 @@ AWS account with config recorder enabled
 
 Import these policies in AWS Config or click below to deploy to the corestack product 
 
-[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://devserver.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_CMK_Backing_Key_Rotation_Enabled&engine_type=aws_config&services=AWS&severity=high&classification=Security&sub_classification=Access&url=https://github.com/corestacklabs/Policies.git&path=AWS/managed/AWS_CMK_Backing_Key_Rotation_Enabled&recommendation_name=AWS_CMK_Backing_Key_Rotation_Enabled#/tenant)
+[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://sandbox.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_CMK_Backing_Key_Rotation_Enabled&engine_type=aws_config&services=AWS&severity=high&classification=Security&sub_classification=Access&url=https://github.com/corestacklabs/Policies.git&path=AWS/managed/AWS_CMK_Backing_Key_Rotation_Enabled&recommendation_name=AWS_CMK_Backing_Key_Rotation_Enabled#/tenant)
 
 ## Contributing
 
