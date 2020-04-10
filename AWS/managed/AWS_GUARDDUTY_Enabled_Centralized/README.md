@@ -1,7 +1,7 @@
 
 # AWS_GUARDDUTY_Enabled_Centralized
 
-GUARDDUTY_ENABLED_CENTRALIZED
+Checks whether Amazon GuardDuty is enabled in your AWS account and region.
 
 ### Prerequisites
 
@@ -11,7 +11,7 @@ AWS account with config recorder enabled
 
 Import these policies in AWS Config or click below to deploy to the corestack product 
 
-[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://devserver.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_GUARDDUTY_Enabled_Centralized&engine_type=aws_config&services=AWS&severity=high&classification=Cost&sub_classification=Utilization&url=https://github.com/corestacklabs/Policies.git&path=AWS/managed/AWS_GUARDDUTY_Enabled_Centralized&recommendation_name=AWS_GUARDDUTY_Enabled_Centralized#/tenant)
+[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://devserver.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_GUARDDUTY_Enabled_Centralized&engine_type=aws_config&services=AWS&severity=high&classification=Security&sub_classification=End Point protection&url=https://github.com/corestacklabs/Policies.git&path=AWS/managed/AWS_GUARDDUTY_Enabled_Centralized&recommendation_name=AWS_GUARDDUTY_Enabled_Centralized#/tenant)
 
 ## Contributing
 

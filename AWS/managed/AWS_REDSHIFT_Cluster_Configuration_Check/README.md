@@ -1,7 +1,7 @@
 
 # AWS_REDSHIFT_Cluster_Configuration_Check
 
- REDSHIFT_CLUSTER_CONFIGURATION_CHECK
+Use the redshift-cluster-configuration-check AWS Config managed rule to check whether Amazon Redshift clusters have the specified settings.
 
 ### Prerequisites
 
@@ -11,7 +11,7 @@ AWS account with config recorder enabled
 
 Import these policies in AWS Config or click below to deploy to the corestack product 
 
-[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://devserver.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_REDSHIFT_Cluster_Configuration_Check&engine_type=aws_config&services=AWS&severity=high&classification=Cost&sub_classification=Utilization&url=https://github.com/corestacklabs/Policies.git&path=AWS/managed/AWS_REDSHIFT_Cluster_Configuration_Check&recommendation_name=AWS_REDSHIFT_Cluster_Configuration_Check#/tenant)
+[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://devserver.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_REDSHIFT_Cluster_Configuration_Check&engine_type=aws_config&services=AWS&severity=medium&classification=Security&sub_classification=Application&url=https://github.com/corestacklabs/Policies.git&path=AWS/managed/AWS_REDSHIFT_Cluster_Configuration_Check&recommendation_name=AWS_REDSHIFT_Cluster_Configuration_Check#/tenant)
 
 ## Contributing
 

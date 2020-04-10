@@ -1,7 +1,7 @@
 
 # AWS_IAM_Password_Policy
 
-IAM_PASSWORD_POLICY
+Checks whether the account password policy for IAM users meets the specified requirements.
 
 ### Prerequisites
 
@@ -11,7 +11,7 @@ AWS account with config recorder enabled
 
 Import these policies in AWS Config or click below to deploy to the corestack product 
 
-[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://devserver.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_IAM_Password_Policy&engine_type=aws_config&services=AWS&severity=high&classification=Cost&sub_classification=Utilization&url=https://github.com/corestacklabs/Policies.git&path=AWS/managed/AWS_IAM_Password_Policy&recommendation_name=AWS_IAM_Password_Policy#/tenant)
+[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://devserver.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_IAM_Password_Policy&engine_type=aws_config&services=AWS&severity=high&classification=Security&sub_classification=Access&url=https://github.com/corestacklabs/Policies.git&path=AWS/managed/AWS_IAM_Password_Policy&recommendation_name=AWS_IAM_Password_Policy#/tenant)
 
 ## Contributing
 

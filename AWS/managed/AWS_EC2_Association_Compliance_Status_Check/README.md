@@ -1,7 +1,7 @@
 
 # AWS_EC2_Association_Compliance_Status_Check
 
-EC2_MANAGEDINSTANCE_ASSOCIATION_COMPLIANCE_STATUS_CHECK
+It is recommended to have the compliance status of the Amazon EC2 Systems Manager association compliance is COMPLIANT after the association execution on the instance.
 
 ### Prerequisites
 
@@ -11,7 +11,7 @@ AWS account with config recorder enabled
 
 Import these policies in AWS Config or click below to deploy to the corestack product 
 
-[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://devserver.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_EC2_Association_Compliance_Status_Check&engine_type=aws_config&services=AWS&severity=high&classification=Cost&sub_classification=Utilization&url=https://github.com/corestacklabs/Policies.git&path=AWS/managed/AWS_EC2_Association_Compliance_Status_Check&recommendation_name=AWS_EC2_Association_Compliance_Status_Check#/tenant)
+[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://devserver.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_EC2_Association_Compliance_Status_Check&engine_type=aws_config&services=AWS&severity=high&classification=Security&sub_classification=Host&url=https://github.com/corestacklabs/Policies.git&path=AWS/managed/AWS_EC2_Association_Compliance_Status_Check&recommendation_name=AWS_EC2_Association_Compliance_Status_Check#/tenant)
 
 ## Contributing
 

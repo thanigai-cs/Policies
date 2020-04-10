@@ -1,7 +1,7 @@
 
 # AWS_S3_Bucket_Logging_Enabled
 
-S3_BUCKET_LOGGING_ENABLED
+Checks whether logging is enabled for your S3 buckets.
 
 ### Prerequisites
 
@@ -11,7 +11,7 @@ AWS account with config recorder enabled
 
 Import these policies in AWS Config or click below to deploy to the corestack product 
 
-[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://devserver.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_S3_Bucket_Logging_Enabled&engine_type=aws_config&services=AWS&severity=high&classification=Cost&sub_classification=Utilization&url=https://github.com/corestacklabs/Policies.git&path=AWS/managed/AWS_S3_Bucket_Logging_Enabled&recommendation_name=AWS_S3_Bucket_Logging_Enabled#/tenant)
+[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://devserver.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_S3_Bucket_Logging_Enabled&engine_type=aws_config&services=AWS&severity=medium&classification=Security&sub_classification=Data&url=https://github.com/corestacklabs/Policies.git&path=AWS/managed/AWS_S3_Bucket_Logging_Enabled&recommendation_name=AWS_S3_Bucket_Logging_Enabled#/tenant)
 
 ## Contributing
 
