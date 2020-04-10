@@ -11,7 +11,7 @@ Active Azure Account
 
 Import these policies in Azure Security Center or click below to deploy to the corestack product 
 
-[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://devserver.corestack.io/policy?repositories=github&external_redirect=true&name=Azure_Monitor_Possible_App_Whitelisting&engine_type=azure_policy&services=Azure&severity=medium&classification=Security&sub_classification=Application&url=https://github.com/corestacklabs/Policies.git&path=Azure/Azure_Policy/Azure_Monitor_Possible_App_Whitelisting&recommendation_name=Azure_Monitor_Possible_App_Whitelisting#/tenant)
+[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://qa.corestack.io/policy?repositories=github&external_redirect=true&name=Azure_Monitor_Possible_App_Whitelisting&engine_type=azure_policy&services=Azure&severity=medium&classification=Security&sub_classification=Application&url=https://github.com/corestacklabs/Policies.git&path=Azure/Azure_Policy/Azure_Monitor_Possible_App_Whitelisting&recommendation_name=Azure_Monitor_Possible_App_Whitelisting#/tenant)
 
 ## Contributing
 
