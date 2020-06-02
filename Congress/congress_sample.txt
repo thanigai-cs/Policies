@@ -1,0 +1,1 @@
+ip(public_ip, private_ip_address, allocation_id, network_interface_id) :- aws_ec2_elastic_ips:elastic_ip(network_interface_id=network_interface_id, public_ip=public_ip, private_ip_address=private_ip_address, allocation_id=allocation_id, association_id=association_id), equal(association_id, 'None');

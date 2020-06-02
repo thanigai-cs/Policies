@@ -11,7 +11,7 @@ Active Azure Account
 
 Import these policies in Azure Security Center or click below to deploy to the corestack product 
 
-[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://sandbox.corestack.io/policy?repositories=github&external_redirect=true&name=Azure_Monitor_Unprotected_Network_pts&engine_type=azure_policy&services=Azure&severity=high&classification=Security&sub_classification=Network&url=https://github.com/corestacklabs/Policies.git&path=Azure/Azure_Policy/Azure_Monitor_Unprotected_Network_pts&recommendation_name=Azure_Monitor_Unprotected_Network_pts#/tenant)
+[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://qa.corestack.io/policy?repositories=github&external_redirect=true&name=Azure_Monitor_Unprotected_Network_pts&engine_type=azure_policy&services=Azure&severity=high&classification=Security&sub_classification=Network&url=https://github.com/corestacklabs/Policies.git&path=Azure/Azure_Policy/Azure_Monitor_Unprotected_Network_pts&recommendation_name=Azure_Monitor_Unprotected_Network_pts#/tenant)
 
 ## Contributing
 
