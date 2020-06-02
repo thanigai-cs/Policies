@@ -11,7 +11,7 @@ AWS account with config recorder enabled
 
 Import these policies in AWS Config or click below to deploy to the corestack product 
 
-[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://qa.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_RDS_Snapshots_Public_Prohibited&engine_type=aws_config&services=AWS&severity=high&classification=Security&sub_classification=Data&url=https://github.com/corestacklabs/Policies.git&path=AWS/config/managed/AWS_RDS_Snapshots_Public_Prohibited&recommendation_name=AWS_RDS_Snapshots_Public_Prohibited#/tenant)
+[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://sandbox.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_RDS_Snapshots_Public_Prohibited&engine_type=aws_config&services=AWS&severity=high&classification=Security&sub_classification=Data&url=https://github.com/corestacklabs/Policies.git&path=AWS/config/managed/AWS_RDS_Snapshots_Public_Prohibited&recommendation_name=AWS_RDS_Snapshots_Public_Prohibited#/tenant)
 
 ## Contributing
 

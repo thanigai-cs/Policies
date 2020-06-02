@@ -13,7 +13,7 @@ OpenStack Environment
 
 Import these policies in OpenStack or click below to deploy to the corestack product 
 
-[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://qa.corestack.io/policy?repositories=github&external_redirect=true&name=os_security_group_violation&engine_type=null&services=Openstack&severity=high&classification=Security&sub_classification=Network&url=https://github.com/corestacklabs/Policies.git&path=AWS/managed/os_security_group_violation&recommendation_name=os_security_group_violation#/tenant)
+[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://sandbox.corestack.io/policy?repositories=github&external_redirect=true&name=os_security_group_violation&engine_type=null&services=Openstack&severity=high&classification=Security&sub_classification=Network&url=https://github.com/corestacklabs/Policies.git&path=AWS/managed/os_security_group_violation&recommendation_name=os_security_group_violation#/tenant)
 
 ## Contributing
 

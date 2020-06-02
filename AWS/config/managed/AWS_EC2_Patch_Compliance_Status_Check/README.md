@@ -11,7 +11,7 @@ AWS account with config recorder enabled
 
 Import these policies in AWS Config or click below to deploy to the corestack product 
 
-[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://qa.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_EC2_Patch_Compliance_Status_Check&engine_type=aws_config&services=AWS&severity=high&classification=Security&sub_classification=Host&url=https://github.com/corestacklabs/Policies.git&path=AWS/config/managed/AWS_EC2_Patch_Compliance_Status_Check&recommendation_name=AWS_EC2_Patch_Compliance_Status_Check#/tenant)
+[![Deploy to Azure](https://docs.corestack.io/wp-content/uploads/2019/09/deploy-to-corestack.svg)](http://sandbox.corestack.io/policy?repositories=github&external_redirect=true&name=AWS_EC2_Patch_Compliance_Status_Check&engine_type=aws_config&services=AWS&severity=high&classification=Security&sub_classification=Host&url=https://github.com/corestacklabs/Policies.git&path=AWS/config/managed/AWS_EC2_Patch_Compliance_Status_Check&recommendation_name=AWS_EC2_Patch_Compliance_Status_Check#/tenant)
 
 ## Contributing
 
