@@ -10,7 +10,7 @@ There are two types of AWS Config Rules
 
 Below picture explains the high level workflow of creating and managing AWS Config (managed) Rules in CoreStack,
 
-![](../../../workflow/AWS%20Config%20Rule%20-%20Managed.png)
+![](../../workflow/AWS%20Config%20Rule%20-%20Managed.png)
  
 <h1> Steps to get a managed AWS Config Rule </h1>
 
