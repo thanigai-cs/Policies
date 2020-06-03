@@ -67,8 +67,11 @@ Create a new file csmetadata.json (filename to be same as mentioned) with the fo
 		• high
 		• medium
 		• low
-	3. classification - Classification of the Config Rule in CoreStack terms. Must one be one of the allowed values (case-sensitive) mentioned below
-	4. sub_classifciation - Sub classification of the Config Rule in CoreStack terms. Must one be one of the allowed values (case-sensitive) mentioned below
+	3. classification - Classification of the Config Rule in CoreStack terms. Must one be one of the allowed values (case-sensitive)
+		• Security
+		• Cost
+		• Operation
+	4. sub_classifciation - Sub classification of the Config Rule in CoreStack terms. Must one be one of the allowed values (case-sensitive) mentioned in "CoreStack Classification & Sub Classification reference" section below 
 	5. resource_type - Name of the impacting resource type. It is typically the resource type name in AWS.
 
 Service-provider::service-name::data-type-name is the format of resource types in AWS. CoreStack needs only the data-type-name to be mentioned as resource_type in the csmetadata.json
