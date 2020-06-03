@@ -47,6 +47,8 @@ Under the AWS Config custom folder in GitHub create a new folder for the new con
 
 Now the folder AMI_NOT_PUBLIC_CHECK will contain two files “parameters.json” & “AMI_NOT_PUBLIC_CHECK.py”
 
+Note: Name of the folder and the python file name should be same. In the above example, "AMI_NOT_PUBLIC_CHECK" will be the folder name and "AMI_NOT_PUBLIC_CHECK.py" will be the python file name
+
 <h2> Step 2: Add metadata needed for CoreStack in the file csmetadata.json </h2>
 Create a new file csmetadata.json (filename to be same as mentioned) with the following structure,
 
