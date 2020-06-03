@@ -19,7 +19,7 @@ https://github.com/awslabs/aws-config-rules
 
 Outcome of the Config Rule creation will be “parameters.json” and a python file. Name of the python file will be “RuleName” in ”parameters.json” file
 
-              {
+        {
 	  "Version": "1.0",
 	  "Parameters": {
 	    "RuleName": "AMI_NOT_PUBLIC_CHECK",
@@ -50,14 +50,14 @@ Now the folder AMI_NOT_PUBLIC_CHECK will contain two files “parameters.json”
 Create a new file csmetadata.json (filename to be same as mentioned) with the following structure,
 
 {
-"description": "DESCRIPTION OF THE CONFIG RULE",
-"severity": "high / medium / low",
-"classification": "CoreStack Classification",
-"sub_classification": "CoreStack Sub-Classification",
-"resource_type": [
-		“resource_type_name1”,
-		“resource_type_name2”
-      	]	
+   "description":"DESCRIPTION OF THE CONFIG RULE",
+   "severity":"high / medium / low",
+   "classification":"CoreStack Classification",
+   "sub_classification":"CoreStack Sub-Classification",
+   "resource_type":[
+      "resource_type_name1",
+      "resource_type_name2"
+   ]
 }
 
 1. description - Description to be used in CoreStack. As part of the AWS Custom Config Rules, there is no description maintained. In CoreStack, this description is required to provide detailed information to help others understand the purpose of the Config Rule
@@ -83,22 +83,21 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-reso
 
 CoreStack Classification & Sub Classification of Config Rules
 
-CLASSIFICATION	SUB CLASSIFICATIONS
-Security	When the classification is mentioned as Security, then sub_classification must be one of the following
-•	Access
-•	Data
-•	Network
-•	Host
-•	Application
-•	End Point protection
-•	Logging
-•	Monitoring
-Cost	When the classification is mentioned as “Cost”, then sub_classification must be one of the following
-•	Utilization
-Operation	When the classification is mentioned as “Operation”, then sub_classification must be one of the following
-•	Performance
-•	Availability
-•	Standards
+Security - When the classification is mentioned as Security, then sub_classification must be one of the following
+	• Access
+	• Data
+	• Network
+	• Host
+	• Application
+	• End Point protection
+	• Logging
+	• Monitoring
+Cost - When the classification is mentioned as “Cost”, then sub_classification must be one of the following
+	• Utilization
+Operation - When the classification is mentioned as “Operation”, then sub_classification must be one of the following
+	• Performance
+	• Availability
+	• Standards
 
 Sample csmetadata.json
 
