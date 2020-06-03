@@ -19,7 +19,7 @@ https://github.com/awslabs/aws-config-rules
 
 Outcome of the Config Rule creation will be “parameters.json” and a python file. Name of the python file will be “RuleName” in ”parameters.json” file
 
-        {
+	{
 	  "Version": "1.0",
 	  "Parameters": {
 	    "RuleName": "AMI_NOT_PUBLIC_CHECK",
@@ -49,16 +49,16 @@ Now the folder AMI_NOT_PUBLIC_CHECK will contain two files “parameters.json”
 <h2> Step 2: Add metadata needed for CoreStack in the file csmetadata.json </h2>
 Create a new file csmetadata.json (filename to be same as mentioned) with the following structure,
 
-{
-   "description":"DESCRIPTION OF THE CONFIG RULE",
-   "severity":"high / medium / low",
-   "classification":"CoreStack Classification",
-   "sub_classification":"CoreStack Sub-Classification",
-   "resource_type":[
-      "resource_type_name1",
-      "resource_type_name2"
-   ]
-}
+	{
+	   "description":"DESCRIPTION OF THE CONFIG RULE",
+	   "severity":"high / medium / low",
+	   "classification":"CoreStack Classification",
+	   "sub_classification":"CoreStack Sub-Classification",
+	   "resource_type":[
+	      "resource_type_name1",
+	      "resource_type_name2"
+	   ]
+	}
 
 1. description - Description to be used in CoreStack. As part of the AWS Custom Config Rules, there is no description maintained. In CoreStack, this description is required to provide detailed information to help others understand the purpose of the Config Rule
 2. severity - Severity of the config rule – must be one of the following (case-sensitive)
@@ -71,10 +71,10 @@ Create a new file csmetadata.json (filename to be same as mentioned) with the fo
 
 Service-provider::service-name::data-type-name is the format of resource types in AWS. CoreStack needs only the data-type-name to be mentioned as resource_type in the csmetadata.json
 
-For example, 
-AWS::EC2::Instance --> Instance
-AWS::EC2::EIP --> EIP
-AWS::ECS::Cluster --> Cluster
+	For example, 
+	AWS::EC2::Instance --> Instance
+	AWS::EC2::EIP --> EIP
+	AWS::ECS::Cluster --> Cluster
 
 Refer to the link below for the AWS resource types,
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html
@@ -101,29 +101,29 @@ Operation - When the classification is mentioned as “Operation”, then sub_cl
 
 Sample csmetadata.json
 
-{
-"description": "Sample1: Test AWS ACM Certificate Expiration Check",
-"severity": "high",
-"classification": "Security",
-"sub_classification": "Monitoring",
-"resource_type": ["Certificate"]	
-}
+	{
+	"description": "Sample1: Test AWS ACM Certificate Expiration Check",
+	"severity": "high",
+	"classification": "Security",
+	"sub_classification": "Monitoring",
+	"resource_type": ["Certificate"]	
+	}
 
-{
-"description": "Sample2: Check AWS CMK Backing Key Rotation Enabled or not",
-"severity": "high",
-"classification": "Security",
-"sub_classification": "Data",
-"resource_type": ["Key"]	
-}
+	{
+	"description": "Sample2: Check AWS CMK Backing Key Rotation Enabled or not",
+	"severity": "high",
+	"classification": "Security",
+	"sub_classification": "Data",
+	"resource_type": ["Key"]	
+	}
 
-{
-"description": "Sample3: Check AWS EC2 Association Compliance Status Check",
-"severity": "low",
-"classification": "Operation",
-"sub_classification": "Performance",
-"resource_type": ["Instance"]	
-}
+	{
+	"description": "Sample3: Check AWS EC2 Association Compliance Status Check",
+	"severity": "low",
+	"classification": "Operation",
+	"sub_classification": "Performance",
+	"resource_type": ["Instance"]	
+	}
 
 When a AWS Config Rule is committed to GitHub with the above files, then CoreStack policy pipeline will automatically fetch them and create policies in CoreStack.
 
