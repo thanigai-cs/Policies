@@ -10,7 +10,7 @@ There are two types of AWS Config Rules
 
 Below picture explains the high level workflow of creating and managing AWS Config (custom) Rules in CoreStack,
 
-<img src="https://cloudenablersinc-my.sharepoint.com/personal/kamal_s_corestack_io/_layouts/15/guestaccess.aspx?docid=0988dd278bb3f4fa1a20eb02eabb97101&authkey=AXm_0uevxbCShwjxlNlsSRA&expiration=2021-05-29T09%3a40%3a22.000Z"/>
+![](workflow/AWS%20Config%20Rule%20-%20Custom.png)
  
 <h1> Steps to create a custom AWS Config Rule </h1>
 
