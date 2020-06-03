@@ -35,7 +35,8 @@ Outcome of the Config Rule creation will be “parameters.json” and a python f
 
 In this example, “AMI_NOT_PUBLIC_CHECK.py” will be the name of python file
 
-Note: Though custom AWS Config Rules can be created in Python, Nodejs & Java, CoreStack supports only python. Support for Nodejs & Java will be available in the future CoreStack releases
+	Note: Though custom AWS Config Rules can be created in Python, Nodejs & Java, CoreStack supports only python. 
+	Support for Nodejs & Java will be available in the future CoreStack releases
 
 <h1> How to onboard custom Config Rules into CoreStack </h1>
 
@@ -47,7 +48,10 @@ Under the AWS Config custom folder in GitHub create a new folder for the new con
 
 Now the folder AMI_NOT_PUBLIC_CHECK will contain two files “parameters.json” & “AMI_NOT_PUBLIC_CHECK.py”
 
-Note: Name of the folder and the python file name should be same. In the above example, "AMI_NOT_PUBLIC_CHECK" will be the folder name and "AMI_NOT_PUBLIC_CHECK.py" will be the python file name
+	Note: Name of the folder and the python file name should be same. 
+	In the above example, 
+	"AMI_NOT_PUBLIC_CHECK" will be the folder name and 
+	"AMI_NOT_PUBLIC_CHECK.py" will be the python file name
 
 <h2> Step 2: Add metadata needed for CoreStack in the file csmetadata.json </h2>
 Create a new file csmetadata.json (filename to be same as mentioned) with the following structure,
