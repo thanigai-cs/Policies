@@ -60,14 +60,16 @@ Create a new file csmetadata.json (filename to be same as mentioned) with the fo
 	   ]
 	}
 
-1. description - Description to be used in CoreStack. As part of the AWS Custom Config Rules, there is no description maintained. In CoreStack, this description is required to provide detailed information to help others understand the purpose of the Config Rule
-2. severity - Severity of the config rule – must be one of the following (case-sensitive)
-	• high
-	• medium
-	• low
-3. classification - Classification of the Config Rule in CoreStack terms. Must one be one of the allowed values (case-sensitive) mentioned in the table below
-4. sub_classifciation - Sub classification of the Config Rule in CoreStack terms. Must one be one of the allowed values (case-sensitive) mentioned in the table below
-5. resource_type - Name of the impacting resource type. It is typically the resource type name in AWS.
+<h2> Details about each attribute </h2>
+
+	1. description - Description to be used in CoreStack. As part of the AWS Custom Config Rules, there is no description maintained. In CoreStack, this description is required to provide detailed information to help others understand the purpose of the Config Rule
+	2. severity - Severity of the config rule – must be one of the following (case-sensitive)
+		• high
+		• medium
+		• low
+	3. classification - Classification of the Config Rule in CoreStack terms. Must one be one of the allowed values (case-sensitive) mentioned in the table below
+	4. sub_classifciation - Sub classification of the Config Rule in CoreStack terms. Must one be one of the allowed values (case-sensitive) mentioned in the table below
+	5. resource_type - Name of the impacting resource type. It is typically the resource type name in AWS.
 
 Service-provider::service-name::data-type-name is the format of resource types in AWS. CoreStack needs only the data-type-name to be mentioned as resource_type in the csmetadata.json
 
@@ -81,25 +83,27 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-reso
 
 
 
-CoreStack Classification & Sub Classification of Config Rules
+CoreStack Classification & Sub Classification reference
 
-Security - When the classification is mentioned as Security, then sub_classification must be one of the following
-	• Access
-	• Data
-	• Network
-	• Host
-	• Application
-	• End Point protection
-	• Logging
-	• Monitoring
-Cost - When the classification is mentioned as “Cost”, then sub_classification must be one of the following
-	• Utilization
-Operation - When the classification is mentioned as “Operation”, then sub_classification must be one of the following
-	• Performance
-	• Availability
-	• Standards
+	Security - When the classification is mentioned as Security, then sub_classification must be one of the following
+		• Access
+		• Data
+		• Network
+		• Host
+		• Application
+		• End Point protection
+		• Logging
+		• Monitoring
+	Cost - When the classification is mentioned as “Cost”, then sub_classification must be one of the following
+		• Utilization
+	Operation - When the classification is mentioned as “Operation”, then sub_classification must be one of the following
+		• Performance
+		• Availability
+		• Standards
 
 Sample csmetadata.json
+
+Example 1:
 
 	{
 	"description": "Sample1: Test AWS ACM Certificate Expiration Check",
@@ -109,6 +113,8 @@ Sample csmetadata.json
 	"resource_type": ["Certificate"]	
 	}
 
+Example 2: 
+
 	{
 	"description": "Sample2: Check AWS CMK Backing Key Rotation Enabled or not",
 	"severity": "high",
@@ -116,6 +122,8 @@ Sample csmetadata.json
 	"sub_classification": "Data",
 	"resource_type": ["Key"]	
 	}
+	
+Example 3:
 
 	{
 	"description": "Sample3: Check AWS EC2 Association Compliance Status Check",
