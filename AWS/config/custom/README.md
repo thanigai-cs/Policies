@@ -105,32 +105,34 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-reso
 Example 1:
 
 	{
-	"description": "Sample1: Test AWS ACM Certificate Expiration Check",
-	"severity": "high",
-	"classification": "Security",
-	"sub_classification": "Monitoring",
-	"resource_type": ["Certificate"]	
+		"description": "Sample1: Test AWS ACM Certificate Expiration Check",
+		"severity": "high",
+		"classification": "Security",
+		"sub_classification": "Monitoring",
+		"resource_type": ["Certificate"]	
 	}
 
 Example 2: 
 
 	{
-	"description": "Sample2: Check AWS CMK Backing Key Rotation Enabled or not",
-	"severity": "high",
-	"classification": "Security",
-	"sub_classification": "Data",
-	"resource_type": ["Key"]	
+		"description": "Sample2: Check AWS CMK Backing Key Rotation Enabled or not",
+		"severity": "high",
+		"classification": "Security",
+		"sub_classification": "Data",
+		"resource_type": ["Key"]	
 	}
 	
 Example 3:
 
 	{
-	"description": "Sample3: Check AWS EC2 Association Compliance Status Check",
-	"severity": "low",
-	"classification": "Operation",
-	"sub_classification": "Performance",
-	"resource_type": ["Instance"]	
+		"description": "Sample3: Check AWS EC2 Association Compliance Status Check",
+		"severity": "low",
+		"classification": "Operation",
+		"sub_classification": "Performance",
+		"resource_type": ["Instance"]	
 	}
+	
+<h1> Post Creation </h1>
 
 When a AWS Config Rule is committed to GitHub with the above files, then CoreStack policy pipeline will automatically fetch them and create policies in CoreStack.
 
