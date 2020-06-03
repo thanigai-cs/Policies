@@ -37,6 +37,9 @@ In this example, “AMI_NOT_PUBLIC_CHECK.py” will be the name of python file
 
 	Note: Though custom AWS Config Rules can be created in Python, Nodejs & Java, CoreStack supports only python. 
 	Support for Nodejs & Java will be available in the future CoreStack releases
+	
+Some useful AWS Config rules:
+https://github.com/awslabs/aws-config-rules/tree/master/python
 
 <h1> How to onboard custom Config Rules into CoreStack </h1>
 
