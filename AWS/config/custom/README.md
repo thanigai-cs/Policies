@@ -1,6 +1,20 @@
 <h1> Overview </h1>
 AWS Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources. Config continuously monitors and records your AWS resource configurations and allows you to automate the evaluation of recorded configurations against desired configurations
 
+<h1> Advantages of creating and Managing AWS Config rules through CoreStack </h1>
+While AWS Config rules can be defined in an AWS account directly, CoreStack has the following advantages,
+
+* AWS Config Rules created in CoreStack can be used across multiple AWS accounts
+* Can be executed against selected regions and accounts
+* Can map policies with Compliance Controls & Standards
+* Can have overall multi account posture in a common place
+* Custom Reporting & Anlaytics
+* Not only Config Rules, but also use custom policy definitions supported by CoreStack
+* Can view recommendations & policy violations all in one place. Act upon multiple resource, region, account as required
+* Common API structure to create, manage & use Config Rules
+
+<h1>Types of AWS Config Rules </h1>
+
 There are two types of AWS Config Rules
 
 1.	Managed – These are rules predefined by AWS and can be used without making any changes
