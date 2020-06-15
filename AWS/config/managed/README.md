@@ -13,6 +13,7 @@ While AWS Config rules can be defined in an AWS account directly, CoreStack has 
 * Can view recommendations & policy violations all in one place. Act upon multiple resource, region, account as required
 * Common API structure to create, manage & use Config Rules
 
+<h1>Types of AWS Config Rules </h1>
 There are two types of AWS Config Rules
 
 1.	Managed – These are rules predefined by AWS and can be used without making any changes
