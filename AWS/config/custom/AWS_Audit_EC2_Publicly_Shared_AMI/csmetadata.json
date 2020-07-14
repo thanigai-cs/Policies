@@ -1,0 +1,8 @@
+{
+	"description": "Ensure your Amazon Machine Images (AMIs) are not accessible to all AWS accounts",
+	"severity": "Medium",
+	"classification": "Security",
+	"sub_classification": "Host",
+	"resource_type": ["EC2"],
+	"resources": ["Instances"]
+}
